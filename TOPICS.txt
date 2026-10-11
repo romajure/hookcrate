@@ -1,0 +1,5 @@
+claude-code
+claude-code-plugin
+claude-code-hooks
+claude-code-skills
+agent-skills

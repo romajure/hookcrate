@@ -1,0 +1,16 @@
+{
+  "name": "hookcrate-oss",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Free, MIT-licensed Claude Code hooks (credential-guard, evidence-gate) packaged as a plugin marketplace.",
+  "license": "MIT",
+  "repository": "https://github.com/romajure/hookcrate",
+  "homepage": "https://hookcrate.com",
+  "scripts": {
+    "test": "bun test",
+    "validate": "claude plugin validate ."
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.0"
+  }
+}

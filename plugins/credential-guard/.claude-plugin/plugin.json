@@ -1,0 +1,14 @@
+{
+  "name": "credential-guard",
+  "displayName": "Credential Guard",
+  "version": "1.0.0",
+  "description": "Blocks shell and HTTP tool calls that would ship a literal API key or token to an outbound command. $VAR references pass. Every decision is logged locally with the secret redacted.",
+  "author": {
+    "name": "Romas Jurevicius",
+    "url": "https://hookcrate.com"
+  },
+  "homepage": "https://hookcrate.com/packs/credential-guard/",
+  "repository": "https://github.com/romajure/hookcrate",
+  "license": "MIT",
+  "keywords": ["claude-code", "hooks", "security", "secrets", "pretooluse"]
+}

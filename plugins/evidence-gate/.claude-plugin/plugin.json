@@ -1,0 +1,14 @@
+{
+  "name": "evidence-gate",
+  "displayName": "Evidence Gate",
+  "version": "1.0.0",
+  "description": "Refuses to let a task be marked complete while checklist criteria are unchecked or lack an evidence: line. Engages only once the checklist declares status: complete.",
+  "author": {
+    "name": "Romas Jurevicius",
+    "url": "https://hookcrate.com"
+  },
+  "homepage": "https://hookcrate.com/packs/evidence-gate/",
+  "repository": "https://github.com/romajure/hookcrate",
+  "license": "MIT",
+  "keywords": ["claude-code", "hooks", "verification", "stop-hook", "quality"]
+}

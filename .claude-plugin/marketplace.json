@@ -1,0 +1,26 @@
+{
+  "name": "hookcrate",
+  "description": "Free, open-source Claude Code hooks from HookCrate: credential-guard and evidence-gate.",
+  "owner": {
+    "name": "Romas Jurevicius",
+    "url": "https://hookcrate.com"
+  },
+  "plugins": [
+    {
+      "name": "credential-guard",
+      "source": "./plugins/credential-guard",
+      "description": "PreToolUse hook that blocks curl/wget/HTTP tool calls carrying a literal API key; $VAR references pass; JSONL audit log.",
+      "version": "1.0.0",
+      "category": "security",
+      "tags": ["hooks", "security", "secrets"]
+    },
+    {
+      "name": "evidence-gate",
+      "source": "./plugins/evidence-gate",
+      "description": "Stop + PostToolUse hook that refuses 'task complete' while checklist criteria are unchecked or lack an evidence: line.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["hooks", "verification", "quality"]
+    }
+  ]
+}

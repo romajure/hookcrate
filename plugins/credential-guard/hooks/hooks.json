@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|WebFetch|.*(fetch|http|curl|request).*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bun \"${CLAUDE_PLUGIN_ROOT}\"/scripts/credential-guard.ts",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
